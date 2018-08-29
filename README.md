@@ -1,0 +1,2 @@
+# statuspage
+amply status page
