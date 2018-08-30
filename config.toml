@@ -1,0 +1,31 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Amply Status"
+theme = "cstate"
+
+[permalinks]
+    incidents = "/incidents/:year/:month/:day/:slug/"
+
+[params]
+    logo = "https://amply.cloud/assets/images/logo.png"
+    faviconsPath = "/images/favicon/"
+    autoRefresh = true
+    useLogo = true
+    incidentPostsPerPage = 10
+    description = "Amply Services Status"
+    brand = "f4f8fb"
+    ok = "228B22"
+    disrupted = "FF8C00"
+    down = "DC143C"
+    notice = "708090"
+    alwaysKeepBrandColor = true
+    googleAnalytics = "UA-00000000-1"
+    version = 2
+
+[[params.systems]]
+    name = "r.amply.cloud"
+
+[[params.systems]]
+    name = "s.amply.cloud"
+[[params.systems]]
+    name = "API"
