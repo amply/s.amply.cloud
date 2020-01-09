@@ -19,13 +19,14 @@ theme = "cstate"
     down = "DC143C"
     notice = "708090"
     alwaysKeepBrandColor = true
-    googleAnalytics = "UA-00000000-1"
+    googleAnalytics = "UA-124644803-3"
     version = 2
 
 [[params.systems]]
-    name = "r.amply.cloud"
-
+    name = "Road API"
 [[params.systems]]
-    name = "s.amply.cloud"
+    name = "AMP Render"
 [[params.systems]]
-    name = "API"
+    name = "AMP API"
+[[params.systems]]
+    name = "Status - amply"

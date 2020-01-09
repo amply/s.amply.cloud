@@ -6,7 +6,7 @@ resolvedWhen: 2018-08-29 20:00:00
 # down, disrupted, notice
 severity: notice
 affected:
-  - r.status.cloud
+  - AMP Render
 section: issue
 ---
 
