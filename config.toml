@@ -20,8 +20,8 @@ theme = "cstate"
     notice = "708090"
     alwaysKeepBrandColor = true
     googleAnalytics = "UA-124644803-3"
-    version = 2
-
+    version = 4
+    disableDarkMode = true
 [[params.systems]]
     name = "Road API"
 [[params.systems]]
@@ -30,3 +30,8 @@ theme = "cstate"
     name = "AMP API"
 [[params.systems]]
     name = "Status - amply"
+
+[outputs]
+    page = ["html", "json"]
+    section = ["html", "json", "rss"]
+    home = ["html", "json", "rss"]
