@@ -7,7 +7,7 @@ theme = "cstate"
     incidents = "/incidents/:year/:month/:day/:slug/"
 
 [params]
-    logo = "https://amply.cloud/assets/images/logo.png"
+    logo = "https://amply.cc/images/logo.png"
     faviconsPath = "/images/favicon/"
     autoRefresh = true
     useLogo = true
